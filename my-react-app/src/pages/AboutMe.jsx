@@ -1,11 +1,13 @@
-// AboutMe.jsx
+import '../assets/style.css'
+
 function AboutMe() {
     return (
-      <div>
-        <h1>About Me Component</h1>
-        <p>This is the About Me component 2 content.</p>
-      </div>
+        <div className="custom-style">
+            <h1>About Me</h1>
+            <img src="your-avatar-image.jpg" alt="Your Name" /> {/* Replace with your avatar image */}
+            <p>This is the About Me component content.</p>
+        </div>
     );
-  }
+}
 
-  export default AboutMe;
+export default AboutMe;
