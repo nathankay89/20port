@@ -6,7 +6,7 @@ function Resume() {
     <section className="resume">
       <h2>My Resume</h2>
       <a
-        href="./assets/Resume.pdf" 
+        href="../assets/resume.pdf" 
         target="_blank"
         rel="noopener noreferrer"
         className="resume-link"

@@ -105,8 +105,8 @@
 .main-content {
   width: 100%; /* Make sure main content takes the full width */
 }
-.avatar-image {
-  max-width: 50%;
+.avatar {
+  max-width: 200px;
   height: auto;
 }
 .project-card img {
