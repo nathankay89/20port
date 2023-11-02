@@ -8,7 +8,7 @@ Click on the deployed link below to see the deployed app that should look someth
 
 ![Screen shot of deployed website](./src/assets/screenshot.png)
 
-https://main--adorable-stroopwafel-b7510c.netlify.app/›
+https://main--adorable-stroopwafel-b7510c.netlify.app
 
 License
 This project is licensed under The MIT License. Here is the link to the license to access more information for your reference: https://opensource.org/licenses/MIT
