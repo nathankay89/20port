@@ -1,0 +1,159 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* App.css - Styles for mobile-first design */
+
+/* Apply dark background to the entire app */
+.app.dark-theme {
+  background-color: #222; /* Choose your desired dark background color */
+  color: #fff; /* Text color for dark theme */
+}
+
+/* Style your header (navigation bar) */
+.app.dark-theme .nav-link {
+  color: #fff; /* Text color for navigation links */
+}
+
+.app.dark-theme .nav-link.active {
+  background-color: #27285e; /* Background color for active link */
+}
+
+/* Style main content (content below header) */
+.main-content {
+  padding: 1rem; /* Adjust padding for mobile devices */
+}
+
+/* Style individual content sections (e.g., About Me, Portfolio, etc.) */
+/* Add specific CSS classes to target each section individually */
+.about-me {
+  /* Add your specific styles here for the About Me section on mobile */
+  font-size: 1.2rem; /* Adjust font size for mobile devices */
+}
+
+.portfolio {
+  /* Add your specific styles here for the Portfolio section on mobile */
+  font-size: 1.2rem; /* Adjust font size for mobile devices */
+}
+
+/* Continue this pattern for other sections (e.g., Contact, Resume) */
+/* App.css - Additional styles for larger screens */
+
+/* Add a media query for screens with a minimum width of 768px (adjust as needed) */
+@media (min-width: 768px) {
+  /* Style your header (navigation bar) for larger screens */
+  .app.dark-theme .nav-link {
+    font-size: 1.4rem; /* Adjust font size for larger screens */
+  }
+
+  /* Style main content (content below header) for larger screens */
+  .main-content {
+    padding: 2rem; /* Adjust padding for larger screens */
+  }
+
+  /* Style individual content sections (e.g., About Me, Portfolio, etc.) for larger screens */
+  /* Add specific CSS classes to target each section individually */
+  .about-me .portfolio {
+    font-size: 1.4rem; /* Adjust font size for larger screens */
+  }
+
+  /* Continue this pattern for other sections (e.g., Contact, Resume) */
+}
+.app {
+  width: 100%; /* Ensure the entire width of the screen is used */
+  min-height: 100vh; /* Make sure the container at least spans the entire height of the viewport */
+}
+
+.main-content {
+  width: 100%; /* Make sure main content takes the full width */
+}
+.avatar-image {
+  max-width: 50%;
+  height: auto;
+}
+.project-card img {
+  max-width: 50%; /* Limits the image width to its container's width */
+  height: auto; /* Maintains the image's aspect ratio */
+}
+
+.project-card {
+  margin-bottom: 30px; 
+  padding-bottom: 20px;
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.project-image:hover img {
+  opacity: 0.7;
+}
+
+.project-image:hover .overlay {
+  opacity: 1;
+}
+
+.social-links img {
+  width: 60px; 
+  height: 60px; 
+}
+.social-links {
+  display: flex; /* Use flex display to make items in a row */
+  list-style: none; /* Remove the default list styles */
+  padding: 0; /* Remove any default padding or margin */
+  justify-content: center;
+}
+
+.social-links li {
+  margin-right: 10px; /* Add some spacing between the icons */
+}
+.skills-list {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
