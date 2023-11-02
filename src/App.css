@@ -105,7 +105,7 @@
 .main-content {
   width: 100%; /* Make sure main content takes the full width */
 }
-.avatar {
+.avatar-image {
   max-width: 200px;
   height: auto;
 }

@@ -1,13 +1,12 @@
 import React from 'react';
-import myImage from '../assets/pfp.jpeg'; // Update the path to your image file
-
 function AboutMe() {
   return (
     <section className="about-me">
       <h2>About Me</h2>
       <div className="about-me-content">
-      <img src={myImage} alt="My Image" className="avatar"/>
-    </div>
+        <div className="avatar">
+          
+        </div>
         <div className="bio">
           <p>
           Hello there! I'm Nathan, and I'm delighted to have you explore my portfolio.
@@ -22,7 +21,7 @@ While my heart lies in front-end work, I'm equally adept at tackling the complex
 I've also had the privilege of working with the MERN (MongoDB, Express.js, React, Node.js) tech stack, further expanding my skill set. I invite you to explore my portfolio and reach out to me – I'm eager to connect and share my work with you.
           </p>
         </div>
-      
+      </div>
     </section>
   );
 }
